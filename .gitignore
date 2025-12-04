@@ -1,0 +1,40 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editors
+.idea/
+.vscode/
+*.code-workspace
+
+# PHP / Composer
+/vendor/
+composer.phar
+
+# Environment files (keep examples tracked)
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# Caches, logs, temp files
+.cache/
+cache/
+tmp/
+temp/
+logs/
+log/
+*.log
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml.cache
+
+# PHP CS Fixer
+.php-cs-fixer.cache
+.php_cs.cache
+
+# Test & coverage outputs
+coverage/
